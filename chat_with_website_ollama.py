@@ -27,7 +27,7 @@ def main():
     st.title('🦜🔗 Chat With Website')
     st.subheader('ask questions about eriko, and receive answers directly from the website.')
 
-    url = "https://eriko.ai/"
+    url = "Your Website Name"
 
     prompt = st.text_input("Ask a question (query/prompt)")
     if st.button("Submit Query", type="primary"):
